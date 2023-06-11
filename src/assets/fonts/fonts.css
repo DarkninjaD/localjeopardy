@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Dollar_Bill";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./Dollar_Bill.ttf") format("tiff");
+}
+
+@font-face {
+  font-family: "ITC_Korinna_Bold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./ITC_Korinna_Bold.otf") format("otf");
+}
