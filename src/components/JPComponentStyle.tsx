@@ -41,7 +41,6 @@ const JPComponent = (questionData: JPComponentProps) => {
         $hasBeenClicked={beenClicked}
       >
         $ {questionData.questionData.score}
-        {questionData.isDoubleJep ? "here" : ""}
       </GameBoardButton>
       <AnimatePresence initial={false} mode="wait">
         {modalOpen && (

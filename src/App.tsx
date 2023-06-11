@@ -4,7 +4,7 @@ import importTSV from "./util/importTool";
 
 // Change the line bellow to the name of your file, after you placed your file in it.
 //@ts-ignore
-import LIVEGAMEDATA from "./livegamedata/Q_and_A_CSV_-_Sheet1_1.tsv";
+import LIVEGAMEDATA from "./livegamedata/Q_and_A_CSV.tsv";
 
 function App() {
   const [fullQuestionSet, setData] = useState<JeopardyCategoryQuestion[]>([]);
