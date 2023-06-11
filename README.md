@@ -1,6 +1,9 @@
 # A simple local running jeopardy clone
 
-Question card
+## How to setup
+
+clone
+`git clone`
 
 ## Main
 
@@ -22,6 +25,6 @@ Team -> Aware.
 Final Jep -> All teams beat and revile answer one by one.
 Spice of Life -> Sounds are added to the game ✅
 
-## Bugs/Errors.
+## Bugs/Errors
 
 Question Card -> the back side of the style does not match the front.

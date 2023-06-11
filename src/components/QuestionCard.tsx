@@ -41,7 +41,6 @@ const QuestionsCard = ({
   };
 
   const flipIt = () => {
-    console.log(side);
     side ? backFlip() : frontFlip();
   };
 

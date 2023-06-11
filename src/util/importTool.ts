@@ -27,7 +27,6 @@ const importTSV = async (path: string): Promise<JeopardyCategoryQuestion[]> => {
             score: jpQuestion[3],
           });
         } else {
-          console.log(buildingCat);
           responseSet.push({ ...buildingCat });
           buildingCat.category = jpQuestion[0];
           buildingCat.questions = [];
@@ -39,6 +38,7 @@ const importTSV = async (path: string): Promise<JeopardyCategoryQuestion[]> => {
           });
         }
       });
+      responseSet.push({ ...buildingCat });
     })
     .catch((e) => console.log(e));
 

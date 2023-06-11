@@ -14,7 +14,6 @@ function App() {
   useEffect(() => {
     importTSV(Use).then((fullQuestionSet) => {
       setData(fullQuestionSet);
-      console.log(fullQuestionSet);
     });
   }, [Use]);
 

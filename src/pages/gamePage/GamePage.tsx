@@ -15,8 +15,6 @@ const GamePage = (data: GamePageProps) => {
     generateRandomNumber(0, fullQuestionSet.length - 1, doubleJepCategory[0])
   );
 
-  console.log(doubleJepCategory);
-
   let doubleJepQuestion = -1;
 
   return (
@@ -53,7 +51,6 @@ const generateRandomNumber = (
   let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
   let number = 0;
 
-  console.log(rerollValue);
   if (rerollValue !== null) {
     while (randomNumber === rerollValue) {
       if (number > 100) break;
